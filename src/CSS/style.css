@@ -1,0 +1,157 @@
+/* Estilos para o Nav */
+nav {
+  display: flex; /* Habilita o flexbox para o nav */
+  justify-content: space-between; /* Distribui espaço entre os elementos */
+  align-items: center; /* Alinha os elementos verticalmente ao centro */
+  padding: 20px 80px; /* Adiciona espaçamento interno */
+  background-color: #ffcc33; /* Define a cor de fundo do nav */
+}
+
+/* Estilos para os links */
+nav ul {
+  display: flex; /* Habilita o flexbox para a lista de links */
+  list-style: none; /* Remove os marcadores da lista */
+  margin: 0; /* Remove a margem da lista */
+  padding: 0; /* Remove o padding da lista */
+}
+
+nav ul li {
+  margin-right: 60px; /* Adiciona margem à direita para espaçar os links */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #333; /* Define a cor do texto dos links */
+}
+
+/* Estilos para o logo */
+nav img {
+  height: 70px; /* Define a altura do logo */
+  margin-left: -230px; /* Ajuste o valor para o espaçamento desejado */
+}
+
+/* Estilos para os botões */
+.btn-group {
+  display: flex; /* Habilita o flexbox para os botões */
+}
+
+.btn-search,
+.btn-login,
+.btn-cart {
+  background-color: transparent; /* Define a cor de fundo dos botões como transparente */
+  border: none; /* Remove a borda dos botões */
+  font-size: 24px; /* Define o tamanho da fonte dos botões */
+  padding: 10px 24px; /* Adiciona padding interno aos botões */ /* Ajuste os valores para o padding desejado */
+  margin-left: 10px; /* Adiciona margem à esquerda para espaçar os botões */
+  cursor: pointer; /* Define o cursor do mouse como ponteiro */
+  color: #333; /* Define a cor do texto dos botões */
+  border-radius: 5px; /* Define bordas arredondadas para os botões */
+}
+
+/* Estilos para a seção banner */
+.banner {
+  text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.banner-text h1 {
+  font-size: 50px; /* Ajuste o valor para o tamanho desejado */
+}
+
+.banner-text {
+  margin-top: 50px; /* Adiciona margem superior */
+  margin-bottom: 50px; /* Adiciona margem inferior */
+}
+
+.imagem-test {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Define a imagem como referência de posicionamento */
+}
+
+.imagem-test-2 {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Define a imagem como referência de posicionamento */
+}
+
+.imagem-3 .container {
+  flex-direction: row-reverse; /* Inverte a ordem dos elementos flex */
+}
+
+.texto-imagem-2 {
+  background-color: #b3b3b3;
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  margin: auto 0; 
+  width: 88%; /* Ajuste a porcentagem para controlar a largura da caixa */
+  margin-left: -1px;  
+}
+
+.texto-imagem-3 {
+  padding: 30px; /* Aumenta o padding para dar mais espaço */
+  text-align: left; /* Alinha o texto à esquerda */
+  margin: auto 0; 
+  width: 100%; /* Ocupa toda a largura disponível dentro do container */
+  margin-left: -22px; /* Remove a margem esquerda */
+}
+
+.texto-imagem-3 h3 {
+  font-size: 36px; /* Aumenta o tamanho do título */
+  margin-bottom: 30px; /* Adiciona espaçamento entre o título e o parágrafo */
+}
+
+.texto-imagem-3 p {
+  font-size: 18px; /* Aumenta o tamanho do texto do parágrafo */
+}
+
+.texto-imagem-4 {
+  padding: 30px; /* Aumenta o padding para dar mais espaço */
+  text-align: left; /* Alinha o texto à esquerda */
+  margin: auto 0; 
+  width: 100%; /* Ocupa toda a largura disponível dentro do container */
+  margin-left: -22px; /* Remove a margem esquerda */
+}
+
+.texto-imagem-4 h3 {
+  font-size: 36px; /* Aumenta o tamanho do título */
+  margin-bottom: 30px; /* Adiciona espaçamento entre o título e o parágrafo */
+}
+
+.texto-imagem-4 p {
+  font-size: 18px; /* Aumenta o tamanho do texto do parágrafo */
+}
+
+.imagens-lado-a-lado {
+  width: 100%;
+}
+
+.imagens-lado-a-lado .container {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo */
+  margin-bottom: 30px;
+}
+
+.imagens-lado-a-lado .imagem-test {
+  width: 30%;  /* Reduzindo a largura para dar mais espaço entre as imagens */
+  margin: 0 10px; /* Reduzindo o espaçamento lateral */
+}
+
+.imagens-lado-a-lado .imagem-test-2 {
+  width: 30%;  /* Reduzindo a largura para dar mais espaço entre as imagens */
+  margin: 0 10px; /* Reduzindo o espaçamento lateral */
+}
+
+.imagens-lado-a-lado .imagem-test img {
+  width: 500px;  /* Ajuste o valor para o tamanho desejado */
+  height: 500px; /* Ajuste o valor para o tamanho desejado */
+  object-fit: cover; /* Faz com que a imagem preencha o quadrado, recortando partes que não cabem */
+  border-radius: 3px 3px 0 0; /* Ajuste o valor para controlar a curvatura */
+}
+
+.imagens-lado-a-lado .imagem-test-2 img {
+  width: 500px;  /* Ajuste o valor para o tamanho desejado */
+  height: 500px; /* Ajuste o valor para o tamanho desejado */
+  object-fit: cover; /* Faz com que a imagem preencha o quadrado, recortando partes que não cabem */
+  border-radius: 3px 3px 0 0; /* Ajuste o valor para controlar a curvatura */
+}
