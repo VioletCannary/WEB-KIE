@@ -57,6 +57,11 @@ nav img {
   font-size: 50px; /* Ajuste o valor para o tamanho desejado */
 }
 
+.banner-text-h1 {
+  font-size: 50px; 
+  margin-left: -80px;
+}
+
 .banner-text {
   margin-top: 50px; /* Adiciona margem superior */
   margin-bottom: 50px; /* Adiciona margem inferior */
@@ -219,6 +224,11 @@ nav img {
   max-width: 100%; /* Impede que a imagem ultrapasse a largura da tela */
   height: auto; /* Mantém a proporção da imagem */
   object-fit: cover; 
+}
+
+.imagens-lado-a-lado .imagem-test img, 
+.imagens-lado-a-lado .imagem-test-2 img {
+  box-shadow: 0px 4px 8px rgba(0, 0, 10, 0.5); /* Sombra sutil */
 }
 
 .text-final p {
