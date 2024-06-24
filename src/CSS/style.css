@@ -181,6 +181,12 @@ nav img {
 .imagens-lado-a-lado .imagem-test {
   width: 30%;  /* Reduzindo a largura para dar mais espaço entre as imagens */
   margin: 0 10px; /* Reduzindo o espaçamento lateral */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.imagens-lado-a-lado .imagem-test:hover {
+  transform: scale(1.02); /* Aumenta o tamanho da imagem em 10% */
+  z-index: 1; /* Garante que a imagem fique acima das outras ao passar o mouse */
 }
 
 .imagens-lado-a-lado .imagem-test-2 {
