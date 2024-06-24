@@ -67,34 +67,28 @@ nav img {
   margin-bottom: 50px; /* Adiciona margem inferior */
 }
 
-/* Estilos para a seção banner */
-.banner-2 {
-  text-align: center; /* Centraliza o texto dentro da seção */
-  background-color: #fef0c1;
-  justify-content: center; /* Centraliza verticalmente */
-}
-
-.banner-2 .titulo-produtos-2 {
-  left: 30%;
-  font-size: 17px;
-  font-family: 'MinhaFonte', sans-serif; 
-  margin-left: -70px;
-  margin-bottom: 35px;
-}
-
-.banner-text-2 h1 {
-  font-size: 50px; /* Ajuste o valor para o tamanho desejado */
-}
-
-.banner-text-2 {
-  margin-top: 50px; /* Adiciona margem superior */
-  margin-bottom: 50px; /* Adiciona margem inferior */
-}
-
 .imagem-test {
   display: flex;
   flex-direction: column;
   position: relative; /* Define a imagem como referência de posicionamento */
+}
+
+.titulo-produtos-2 {
+  text-align: center;
+  margin-top: 0px;
+  background-color: #fef0c1;
+  padding: 20px; /* Espaçamento igual em todas as direções */
+  line-height: 0;    /* Remove o espaçamento padrão da linha */
+  font-size: 16px;
+}
+
+.titulo-produtos-2 span {
+  line-height: 25px; /* Define a altura da linha para o espaçamento desejado */
+}
+
+.imagem-test-3 img {
+  display: block; 
+  /* outras propriedades existentes */
 }
 
 .imagem-test-2 {
