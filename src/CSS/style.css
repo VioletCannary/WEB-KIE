@@ -65,6 +65,16 @@ nav img {
 /* Estilos para a seção banner */
 .banner-2 {
   text-align: center; /* Centraliza o texto dentro da seção */
+  background-color: #fef0c1;
+  justify-content: center; /* Centraliza verticalmente */
+}
+
+.banner-2 .titulo-produtos-2 {
+  left: 30%;
+  font-size: 23px;
+  font-family: 'MinhaFonte', sans-serif; 
+  margin-left: -70px;
+  margin-bottom: 35px;
 }
 
 .banner-text-2 h1 {
