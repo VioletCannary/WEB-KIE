@@ -27,7 +27,7 @@ nav ul li a {
 /* Estilos para o logo */
 nav img {
   height: 70px; /* Define a altura do logo */
-  margin-left: -230px; /* Ajuste o valor para o espaçamento desejado */
+  margin-left: -220px; /* Ajuste o valor para o espaçamento desejado */
 }
 
 /* Estilos para os botões */
@@ -164,4 +164,85 @@ nav img {
   height: 500px; /* Ajuste o valor para o tamanho desejado */
   object-fit: cover; /* Faz com que a imagem preencha o quadrado, recortando partes que não cabem */
   border-radius: 3px 3px 0 0; /* Ajuste o valor para controlar a curvatura */
+}
+
+.text-final p {
+  font-size: 16px; 
+  width: 45%; 
+}
+
+.footer .final img {
+  width: 125px; /* Ajuste a largura da logo conforme desejado */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column; /* Alinha os elementos em coluna */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Distribui os elementos com espaçamento */
+  align-items: flex-start;
+  padding: 50px 0px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .final img {
+  width: 150px; 
+  height: auto;
+  margin-bottom: 15px; /* Adiciona espaçamento abaixo da logo */
+}
+
+.menu {
+  margin-left: -550px; /* Ajuste o valor negativo conforme necessário */
+  margin-top: 25px;
+}
+
+.social-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinhe o texto à esquerda */
+  margin-top: 25px;
+}
+
+.p-final {
+  text-align: right; 
+  margin-top: 80px; /* Ajuste o valor para controlar o espaçamento superior */
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 10px; /* Espaçamento entre os itens do menu */
+}
+
+.social-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinha os elementos à direita */
+}
+
+.social-copyright .links p {
+  margin-bottom: 15px; /* Ajuste o valor conforme necessário */
+}
+
+.links a {
+  margin-right: 15px; /* Espaçamento entre os ícones sociais */
+  font-size: 30px;
+  color: #333;
+}
+
+.p-final {
+  text-align: right; /* Alinha o texto dos direitos autorais à direita */
 }
