@@ -122,6 +122,16 @@ nav img {
   font-size: 18px; /* Aumenta o tamanho do texto do parágrafo */
 }
 
+.texto-imagem-3 .nome-produto {
+  font-size: 24px; /* ajuste o tamanho da fonte conforme necessário */
+  margin-bottom: 20px;
+}
+
+.texto-imagem-4 .nome-produto {
+  font-size: 24px; /* ajuste o tamanho da fonte conforme necessário */
+  margin-bottom: 20px;
+}
+
 .imagens-lado-a-lado {
   width: 100%;
 }
