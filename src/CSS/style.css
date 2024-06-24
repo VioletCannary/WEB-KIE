@@ -171,6 +171,10 @@ nav img {
   width: 45%; 
 }
 
+.footer {
+  background-color: #ffcc33;
+}
+
 .footer .final img {
   width: 125px; /* Ajuste a largura da logo conforme desejado */
   height: auto; /* Mantém a proporção da imagem */
@@ -203,6 +207,15 @@ nav img {
 .menu {
   margin-left: -550px; /* Ajuste o valor negativo conforme necessário */
   margin-top: 25px;
+}
+
+.menu a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: black;
+}
+
+.menu a:visited {
+  color: black; /* Mantém a cor preta mesmo após a visita */
 }
 
 .social-copyright {
@@ -244,5 +257,17 @@ nav img {
 }
 
 .p-final {
-  text-align: right; /* Alinha o texto dos direitos autorais à direita */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.p-final h3 {
+  order: 0;
+  margin-bottom: 10px; 
+}
+
+.p-final p {
+  order: 1;
 }
